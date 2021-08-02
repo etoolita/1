@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: -webkit-linear-gradient(left, #e4e6f5, #e4e6f7);
+}
+.loginbox{
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+
+}
+.loginbox h1{
+    font-size: 25px;
+    text-align: center;
+}
+.loginbox p{
+    margin-top:10px;
+}
+.loginbox input[type="text"]{
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    width: 100%;
+    height: 40px;
+    background: -webkit-linear-gradient(right, #9e7cbe, #89649b);
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+}
